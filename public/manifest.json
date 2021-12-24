@@ -1,0 +1,22 @@
+{
+  "name": "StarDate - Visualize time and space!",
+  "short_name": "StarDate",
+  "icons": [
+    {
+      "src": "/the-murphy-collection/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/the-murphy-collection/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "https://asteroidice.github.io/the-murphy-collection/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
