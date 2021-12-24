@@ -10,6 +10,8 @@
 // // Use the gray 10 theme
 // @include carbon--theme($carbon--theme--g100);
 button {
-  margin: 5px;
+  margin: 5px !important;
   width: 100% !important;
+  max-width: unset !important;
+  margin-left: 0 !important;
 }
