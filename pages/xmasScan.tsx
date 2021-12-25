@@ -50,15 +50,10 @@ export default function Home() {
             </p>
 
             <h2>Information about your wallet</h2>
-            <p>
-              <strong>Wallet Addres</strong> <br />
-              <pre>{address}</pre>
-            </p>
-            <p>
-              <strong>Wallet Private Key (Treat this like a password)</strong>
-              <br />
-              <pre>{key}</pre>
-            </p>
+            <h6>Wallet Address</h6>
+            <div className={style.codeStyles}>{address}</div>
+            <h6>Wallet Private Key (Treat this like a password)</h6>
+            <div className={style.codeStyles}>{key}</div>
 
             <h2>How to access your wallet</h2>
             <p>
@@ -67,7 +62,7 @@ export default function Home() {
                   1. Download{" "}
                   <InlineLink href={"https://metamask.io/"}>
                     Meta Mask
-                  </InlineLink>
+                  </InlineLink>{" "}
                   and create an account.
                 </li>
                 <li>
@@ -78,6 +73,7 @@ export default function Home() {
                       "https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account"
                     }
                   >
+                    {" "}
                     "How to import into Meta Mask" Article
                   </InlineLink>
                   .
@@ -88,7 +84,7 @@ export default function Home() {
                     OpenSea.io
                   </InlineLink>{" "}
                   using the meta mask account associated with the wallet you
-                  imported
+                  imported.
                 </li>
               </ol>
             </p>
